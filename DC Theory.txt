@@ -1,0 +1,63 @@
+10th - NST
+Neural Style Transfer (NST) is a technique in deep learning that combines the content of
+one image with the style of another image to create visually appealing artworks. The process
+involves optimizing the pixels of a given content image to simultaneously match the content
+features of a content image and the style features of a style image. This optimization is
+achieved by minimizing a specific loss function.
+steps -
+1. Content Representation:
+ - The content of an image is captured by the high-level features extracted from a pre-trained
+convolutional neural network (CNN). 
+2. Style Representation:
+ - The style of an image refers to its texture, colors, and visual patterns, which are captured
+by the correlations between different feature maps across various layers of the CNN.
+3. Total Variation Loss:
+ - To ensure smoothness and continuity in the generated image, a total variation loss term is
+often added to the optimization function.
+4. Optimization Process:
+y iteratively updating the pixel values of the generated image, NST seeks to find an
+image that preserves the content of the content image while adopting the style of the style
+image.
+Application - fashion design, content creation.
+
+
+9th - ANT Colony
+Ant colony optimization: inspired by working of ants in real time where the ants performs a specific task collaboratively and communicated with each other through pheromone trails
+In ant colony optimization artificial ants are generated
+steps:
+1. initialization:
+pheromone trails are initialized with equal probability for each artificial ant
+2. ant movement:
+ant constrcuts the path by selecting the next city from the set of cities by communicating through pheromone trails
+3. updating pheromone trails:
+as soon as the ant visits the next city it updates to all other ants through pheromone trails which helps to make better decisions abt next city
+4. Termination:
+repeat the steps until the path reaches the initial location
+Application - Food delivery, logistics.
+
+
+8th - DEAP
+Distributes evolutionary algorithm, Genetic algorithm is based on process of natural selection and mutation. 
+It considers the individual with best survival of fittest values
+Starts by-
+Initialisation - Gather a subset of individual candidates or individual solution against an optimisation search problem
+Evaluation - each individual is assigned with an fitness score
+Selection - bàsed on the fitness value best surviving candidates are selected
+Crossover - genetic material of parent individual are mixed to produce an off spring
+Mutation - used to introduce diversity in data set for best optimal approach
+Replacement and termination - the new off spring with low fitness value is replaced from more optimisation and past generated off spring dataset
+And is terminated upon reaching the best optimal solution
+Application - Travelling salesman problem and travel routing.
+
+
+7th - Immune
+mimic the working of biological immune system.AIS mimic the adaptive and self-organizing capabilities of the human immune system to detect and respond to pathogens (antigens) in the body.
+They incorporate concepts such as antigen recognition, clonal selection, affinity maturation, and immune memory.
+steps:
+1. antibody representation: in AIS antibody is represntated in data structures
+this are converted into vectors or strings or graphs
+2. clonal selection: based on the affinity score antibodies are selected for the process of cloning
+3. Immune memory: AIS maintains the memory of past encounters with antigens so that they can perform for similar cases
+4. Immune dynamic response: AIS can reponse dynamically due to which it can adapt to changing environments effectively
+5. Artificial Selection:from the process of affinity maturation and immune selection, AIS can refine their antibody population for better optimal solution
+Application -network intrusion detection, anomaly detection,pattern recognition
